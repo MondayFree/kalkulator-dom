@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.box {
+  display: flex;
+}
+
+.input {
+  max-width: 200px;
+}
+
+.row {
+  display: flex;
+}
+
+.row * {
+  display: block;
+  width: 50%;
+  flex-grow: 1;
+}
+
+button, input {
+  padding: 5px;
+}
+
+.input > button {
+  width: 100%;
+}
+
+.result {
+  width: 100px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
